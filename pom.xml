@@ -12,6 +12,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+    <sonar.organization>softeng2-p09-ezshop</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <repositories>
         <repository>
@@ -129,5 +131,6 @@
 		    <artifactId>json</artifactId>
 		    <version>20140107</version>
 		</dependency>
+
     </dependencies>
 </project>
